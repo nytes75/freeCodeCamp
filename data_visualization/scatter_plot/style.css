@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body{
+  background-color: rgb(35, 40, 49);
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.head h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head h2 span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color: crimson;
+    stroke: white;
+    stroke-width: 2px;
+}
+.head h3{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 13px Tahoma;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    width: 300px;
+    color: white;
+    background-color: slategray;
+  }
+.dot{
+    cursor: pointer;
+}
+#legend{
+    position: static;
+    padding: 10px;
+    font: 13px Tahoma;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: white;
+    top: 200px;
+    left: 900px;
+}
+.inline{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+#dope{
+    background-color: crimson;
+}
+#non-dope{
+    background-color: white;
+}
