@@ -1,4 +1,4 @@
-
+// D3
 var h = 500;
 var w = 1000;
 
@@ -13,8 +13,7 @@ var div = d3.select('.App')
             .append('div')
             .attr('class', 'tooltip')
             .attr('id', 'tooltip')
-            .style('opacity', 0);
-
+            .style('opacity', 0)
 d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json', data => {
   data.forEach((d) => {
     d.Place = +d.Place;
@@ -47,7 +46,7 @@ d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/mas
     svg.append('g')
         .call(d3.axisLeft(y).tickFormat(timeFormat))
         .attr('transform', `translate( ${border.left}, 0)`)
-        .attr('color', 'crimson').attr('font-size',14)
+        .attr('color', 'crimson').attr('font-size',12)
         .attr('id', 'y-axis')
   
     svg.selectAll('circle')
@@ -83,6 +82,9 @@ d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/mas
                     (d.Doping ? '<br/><br/>' + d.Doping : '')
                 )
                .style('left', d3.event.pageX + 'px')
+               .on('click', function(d){
+                   alert(d.name)
+               })
         .style('top', d3.event.pageY - 28 + 'px');
             })
             .on('mouseout', function () {
@@ -93,8 +95,9 @@ d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/mas
         .append('text')
         .attr('transform', 'rotate(-90)')
         .attr('x',  - h/2)
-        .attr('y', border.left + 15)
-        .style('font-size', 15)
+        .attr('y', border.left + 20)
+        .style('font-size', 18)
+        .style('font-family', 'cambri')
         .text('Time in Minutes')
         .attr('fill', 'whitesmoke');
             
