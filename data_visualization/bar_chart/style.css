@@ -19,6 +19,7 @@ margin: auto;
 }
 #title{
     position: relative;
+    margin-bottom: 20px;
     top:9px;
     font-size: 34px;
     color: tomato;

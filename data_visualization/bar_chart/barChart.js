@@ -72,7 +72,7 @@ d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/mas
             .on('mouseover', (d, i) => {
     tooltip.attr('data-date', data.data[i][0])
 
- //let index = scaledGDP.indexOf(i)
+                //let index = scaledGDP.indexOf(i)
                 //console.log(data.data[i][0])
                 //console.log(scaledGDP.indexOf(i)[0])
   tooltip.attr('style', 'display:block')
