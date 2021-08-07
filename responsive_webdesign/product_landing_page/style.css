@@ -1,0 +1,295 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+  #header{
+    position:fixed;
+    width: 100vw;
+    background-color:#fff;
+  }
+  #header-img{
+      height: 50px;
+  }
+  .nav{
+    display:inline-block;
+    color:#ffffff;
+  }
+  #nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pg{
+      height: 100vh;
+  }
+  .pg-lier{
+    height: 100vh;
+    width:1px;
+  }
+  .content-center{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contain{
+    width:70%;
+    margin:auto;
+  }
+  a{
+    text-decoration:none;
+    color:#fff;
+  }
+  .nav button{
+    padding:10px;
+    color:#333;
+    background-color:#fff;
+    border: 1px solid #fff;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+  }
+  .nav button:hover{
+    color:#bd0e57;
+    box-shadow: 0px 2px 0 #bd0e57;
+    transition:0.4s;
+  }
+  
+  .menu-mob{
+    display: none;
+  }
+  /*====HOME====*/
+  #home{
+    background-image: url('https://wallpapercave.com/wp/iiYsxvq.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:top right;
+    background-repeat: no-repeat;
+  }
+
+  #home-header h1{
+    font-family:ink free;
+    font-size:60px;
+    font-stretch: extra-expanded;
+    text-shadow: 5px 5px 1px #333;
+    color:#ffffff;
+  }
+  #home-header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-synthesis: style;
+    color:#ffffff;
+    font-size:30px;
+  }
+  #home p em span{
+      fill: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      text-shadow: 1px 3px 10px#000;
+      text-transform: uppercase;
+  }
+  .home-btn{
+    margin-top:10px;
+    padding:15px;
+    border-radius:10px;
+    border: none;
+    cursor:pointer;
+    border: 1px solid #fff;
+  }
+  #gallery{
+    font-size: x-large;
+    font-family: monospace;
+    background: transparent;
+  }
+  #contribute{
+    color:#fff;
+    font-size: large;
+    font-family:consolas;
+    background-color:  #333;
+  }
+  #home-logo{
+    height: 30vh;
+    z-index: 0;
+    stroke: 5px lightblue;
+    fill: lightslategray;
+  }
+    /*FONTS*/
+  .main-text{
+      color: white;
+      text-transform: capitalize;
+      font-size:40px;
+      padding: 4%;
+      min-width: 200px;
+  }
+  /*===DIY===*/
+  #diy{
+    padding-top:30px;
+    text-align:center;
+    background-color: #333;
+  }
+  .flex-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card{
+    margin: 10px;
+    text-align:center;
+    max-width:250px;
+    border: 10px;
+    height:220px;
+    color:#fff3f3;
+    box-shadow: 3px 3px 0px #fff;
+    transform: rotateZ(20deg)
+
+  }
+  .card-head:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .card-spliter{
+    margin-top: 50px;
+    width:5px;
+    height: 220px;
+  }
+  .card-head{
+      color:  #fcfcfc;
+      padding:10px;
+      text-transform: capitalize;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      transition: linear 0.4s;
+  }
+  .card-main{
+      padding: 30px;
+  }
+  #quote-sec{
+    height: 30vh;
+  }
+  .quote{
+    font-size: large;
+    font-family: corbel;
+    min-width: 280px;
+    font-weight: 100;
+    color: #333;
+    background-color:transparent;
+  }
+  #quoter{
+    font-family: monospace;
+  }
+  #quoter span{
+    font-size: 40px;
+  }
+  #about{
+    padding-top: 30px;
+    background-color: #333;
+  }
+  /*===========ABOUT===========*/
+  #about iframe{
+      min-width: 500px;
+      height: auto;
+  }
+  footer{
+    background-color:#555;
+    color:#ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .card-footer-list ul{
+    text-align: center;
+    list-style: none;
+  }
+  .card-footer-list ul li{
+    padding:6px;
+  }
+  .card-footer{
+    margin-right: 10px;
+    width: 250px;
+    background-color: #555;
+    height:150px;
+  }
+  .gd-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+  }
+  .iframe{
+    font-size: 250px;
+    padding:50px;
+  }
+  #tour{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 28px;
+  }
+  .about-card .card-head{
+    font-size: xx-large;
+  }
+  #subscribe{
+    font-size: 28px;
+  }
+  .form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 20px;
+  }
+  .form p{
+    padding-bottom: 30px;
+  }
+  .form input{
+    padding-top: 10px;
+    text-align: center;
+    width: 220px;
+    font-size: medium;
+    padding: 10px;
+  }
+  .form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #comment-btn{
+    border: 1px solid #555;
+    padding:3px;
+    width:100px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  #comment-btn:hover{
+    border:1px solid #333;
+    background-color: #555;
+    color: white;
+  }
+  .form textarea{
+    width:250px;
+    height:70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .form #submit{
+    color: white;
+    border: 1px solid #fff;
+    margin: 3px;
+    background-color: #333;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    
+  }
+  .form #submit:hover{
+    color: #333;
+    background-color: white;
+  }
+  @media (max-width: 600px){
+    .menu-desk{
+      display: none;
+    }
+    .menu-mob{
+      display: contents;
+    }
+  }
+  @media (max-width:500px){
+    #about iframe{
+      min-width: 300px;
+    }
+  }
