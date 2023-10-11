@@ -9,7 +9,7 @@ function rot13(str) {
                     if(!ind){
                         return b
                     }
-                    else if( ind >= 26){
+                    else if(ind >= 26){
                         return (alph[ind - 26])
                     }else{
                         return (alph[ind])
@@ -18,4 +18,4 @@ function rot13(str) {
                 }).join('')).join(" ")
   }
   
-  rot13("SERR PBQR PNZC$");
+console.log(rot13("SERR PBQR PNZC$"));

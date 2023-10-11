@@ -8,4 +8,5 @@ function palindrome(str){
     .join(""))
 }
 
-palindrome("Ey$_")
+const log = palindrome("Ey$_")
+console.log(log)
